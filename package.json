@@ -1,0 +1,20 @@
+{
+  "name": "simple-hypercore-protocol",
+  "description": "Hypercore protocol state machine for c++",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xloem/simple-hypercore-protocol.git"
+  },
+  "scripts": {
+    "test": [
+      "clang++ std=c++2a",
+      "-O1 -g -fsanitize-address -fno-omit-frame-pointer",
+      "test.cxx -o test && ./test"
+    ]
+  },
+  "files": [
+    "index.hxx"
+  ],
+  "dependencies": {
+  }
+}

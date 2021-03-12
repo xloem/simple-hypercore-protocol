@@ -1,0 +1,3 @@
+[submodule "deps/rweather/noise-c"]
+	path = deps/rweather/noise-c
+	url = https://github.com/rweather/noise-c.git
